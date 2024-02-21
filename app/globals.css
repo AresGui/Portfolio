@@ -4,8 +4,10 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  background-color: 230,224,212;
+  /* background-color: #1a1c26; */
+  /* --background-start-rgb: 0, 137, 153;
+  --background-end-rgb: 255, 255, 255; */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +19,7 @@
 }
 
 body {
+  background-color: white;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -31,3 +34,8 @@ body {
     text-wrap: balance;
   }
 }
+
+/* @font-face {
+  font-family: Poppins, sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+} */
